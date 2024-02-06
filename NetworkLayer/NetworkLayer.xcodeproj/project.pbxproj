@@ -13,12 +13,18 @@
 		BA79A49B2B725AF9009211BA /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = BA79A49A2B725AF9009211BA /* Moya */; };
 		BA79A49D2B725AF9009211BA /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = BA79A49C2B725AF9009211BA /* ReactiveMoya */; };
 		BA79A49F2B725AF9009211BA /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = BA79A49E2B725AF9009211BA /* RxMoya */; };
+		BA79A4A42B725CEF009211BA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79A4A32B725CEF009211BA /* NetworkService.swift */; };
+		BA79A4A62B725D09009211BA /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79A4A52B725D09009211BA /* UserAPI.swift */; };
+		BA79A4A82B725DB5009211BA /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79A4A72B725DB5009211BA /* UserResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA79A4692B725265009211BA /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79A46C2B725265009211BA /* NetworkLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkLayer.h; sourceTree = "<group>"; };
 		BA79A46D2B725265009211BA /* NetworkLayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NetworkLayer.docc; sourceTree = "<group>"; };
+		BA79A4A32B725CEF009211BA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BA79A4A52B725D09009211BA /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		BA79A4A72B725DB5009211BA /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +61,37 @@
 		BA79A46B2B725265009211BA /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BA79A4A02B725CBE009211BA /* NetworkService */,
+				BA79A4A12B725CCE009211BA /* APIs */,
+				BA79A4A22B725CD5009211BA /* Models */,
 				BA79A46C2B725265009211BA /* NetworkLayer.h */,
 				BA79A46D2B725265009211BA /* NetworkLayer.docc */,
 			);
 			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		BA79A4A02B725CBE009211BA /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				BA79A4A32B725CEF009211BA /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		BA79A4A12B725CCE009211BA /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				BA79A4A52B725D09009211BA /* UserAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		BA79A4A22B725CD5009211BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA79A4A72B725DB5009211BA /* UserResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA79A4A42B725CEF009211BA /* NetworkService.swift in Sources */,
 				BA79A46E2B725265009211BA /* NetworkLayer.docc in Sources */,
+				BA79A4A62B725D09009211BA /* UserAPI.swift in Sources */,
+				BA79A4A82B725DB5009211BA /* UserResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
