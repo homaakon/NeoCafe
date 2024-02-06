@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA79A48C2B725674009211BA /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A48B2B725674009211BA /* Utilities.framework */; };
+		BA79A48D2B725674009211BA /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A48B2B725674009211BA /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA79A4902B725678009211BA /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A48F2B725678009211BA /* CommonUI.framework */; };
+		BA79A4912B725678009211BA /* CommonUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A48F2B725678009211BA /* CommonUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA79A4932B72567C009211BA /* NetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A4922B72567C009211BA /* NetworkLayer.framework */; };
+		BA79A4942B72567C009211BA /* NetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A4922B72567C009211BA /* NetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BAE594112B70D3E2008C26AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE594102B70D3E2008C26AC /* AppDelegate.swift */; };
 		BAE594132B70D3E2008C26AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE594122B70D3E2008C26AC /* SceneDelegate.swift */; };
 		BAE594152B70D3E2008C26AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE594142B70D3E2008C26AC /* ViewController.swift */; };
@@ -15,7 +21,26 @@
 		BAE5941D2B70D3E3008C26AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE5941B2B70D3E3008C26AC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BA79A48E2B725674009211BA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA79A4942B72567C009211BA /* NetworkLayer.framework in Embed Frameworks */,
+				BA79A48D2B725674009211BA /* Utilities.framework in Embed Frameworks */,
+				BA79A4912B725678009211BA /* CommonUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BA79A48B2B725674009211BA /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA79A48F2B725678009211BA /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA79A4922B72567C009211BA /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE5940D2B70D3E2008C26AC /* NeoCafe_BusinessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoCafe_BusinessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE594102B70D3E2008C26AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAE594122B70D3E2008C26AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +56,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA79A4932B72567C009211BA /* NetworkLayer.framework in Frameworks */,
+				BA79A48C2B725674009211BA /* Utilities.framework in Frameworks */,
+				BA79A4902B725678009211BA /* CommonUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA79A48A2B725674009211BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA79A4922B72567C009211BA /* NetworkLayer.framework */,
+				BA79A48F2B725678009211BA /* CommonUI.framework */,
+				BA79A48B2B725674009211BA /* Utilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAE594042B70D3E2008C26AC = {
 			isa = PBXGroup;
 			children = (
 				BAE5940F2B70D3E2008C26AC /* NeoCafe_BusinessApp */,
 				BAE5940E2B70D3E2008C26AC /* Products */,
+				BA79A48A2B725674009211BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +116,7 @@
 				BAE594092B70D3E2008C26AC /* Sources */,
 				BAE5940A2B70D3E2008C26AC /* Frameworks */,
 				BAE5940B2B70D3E2008C26AC /* Resources */,
+				BA79A48E2B725674009211BA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
