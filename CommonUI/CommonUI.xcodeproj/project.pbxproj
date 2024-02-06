@@ -11,12 +11,29 @@
 		BA79A4592B725010009211BA /* CommonUI.h in Headers */ = {isa = PBXBuildFile; fileRef = BA79A4562B725010009211BA /* CommonUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA79A4772B7255AD009211BA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BA79A4762B7255AD009211BA /* SnapKit */; };
 		BA79A4792B7255AD009211BA /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = BA79A4782B7255AD009211BA /* SnapKit-Dynamic */; };
+		BA79A47C2B725651009211BA /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A47B2B725651009211BA /* Utilities.framework */; };
+		BA79A47D2B725651009211BA /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A47B2B725651009211BA /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA79A47E2B725651009211BA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA79A47D2B725651009211BA /* Utilities.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BA79A4532B725010009211BA /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79A4562B725010009211BA /* CommonUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUI.h; sourceTree = "<group>"; };
 		BA79A4572B725010009211BA /* CommonUI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CommonUI.docc; sourceTree = "<group>"; };
+		BA79A47B2B725651009211BA /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA79A4772B7255AD009211BA /* SnapKit in Frameworks */,
+				BA79A47C2B725651009211BA /* Utilities.framework in Frameworks */,
 				BA79A4792B7255AD009211BA /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,6 +55,7 @@
 			children = (
 				BA79A4552B725010009211BA /* CommonUI */,
 				BA79A4542B725010009211BA /* Products */,
+				BA79A47A2B725651009211BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +74,14 @@
 				BA79A4572B725010009211BA /* CommonUI.docc */,
 			);
 			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		BA79A47A2B725651009211BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA79A47B2B725651009211BA /* Utilities.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,6 +106,7 @@
 				BA79A44F2B725010009211BA /* Sources */,
 				BA79A4502B725010009211BA /* Frameworks */,
 				BA79A4512B725010009211BA /* Resources */,
+				BA79A47E2B725651009211BA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
