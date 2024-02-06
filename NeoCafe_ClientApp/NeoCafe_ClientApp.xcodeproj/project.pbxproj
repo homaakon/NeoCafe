@@ -13,6 +13,7 @@
 		BA79A4862B725667009211BA /* CommonUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A4842B725667009211BA /* CommonUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA79A4882B72566B009211BA /* NetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A4872B72566B009211BA /* NetworkLayer.framework */; };
 		BA79A4892B72566B009211BA /* NetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A4872B72566B009211BA /* NetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BABCA7942B729A9300F76E35 /* Ext + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABCA7932B729A9300F76E35 /* Ext + UIViewController.swift */; };
 		BAE593F12B70D3B8008C26AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE593F02B70D3B8008C26AC /* AppDelegate.swift */; };
 		BAE593F32B70D3B8008C26AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE593F22B70D3B8008C26AC /* SceneDelegate.swift */; };
 		BAE593F52B70D3B8008C26AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE593F42B70D3B8008C26AC /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 		BA79A4802B725664009211BA /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79A4842B725667009211BA /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79A4872B72566B009211BA /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABCA7932B729A9300F76E35 /* Ext + UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Ext + UIViewController.swift"; path = "../../../../../Downloads/TEST-PROJECTS/testLivePreview/testLivePreview/Ext + UIViewController.swift"; sourceTree = "<group>"; };
 		BAE593ED2B70D3B8008C26AC /* NeoCafe_ClientApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoCafe_ClientApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE593F02B70D3B8008C26AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAE593F22B70D3B8008C26AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		BAE593EF2B70D3B8008C26AC /* NeoCafe_ClientApp */ = {
 			isa = PBXGroup;
 			children = (
+				BABCA7932B729A9300F76E35 /* Ext + UIViewController.swift */,
 				BAE593F02B70D3B8008C26AC /* AppDelegate.swift */,
 				BAE593F22B70D3B8008C26AC /* SceneDelegate.swift */,
 				BAE593F42B70D3B8008C26AC /* ViewController.swift */,
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BABCA7942B729A9300F76E35 /* Ext + UIViewController.swift in Sources */,
 				BAE593F52B70D3B8008C26AC /* ViewController.swift in Sources */,
 				BAE593F12B70D3B8008C26AC /* AppDelegate.swift in Sources */,
 				BAE593F32B70D3B8008C26AC /* SceneDelegate.swift in Sources */,
