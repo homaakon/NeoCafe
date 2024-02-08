@@ -38,6 +38,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA10B7DF2B74F912009DAC69 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		BA10B7E02B74F912009DAC69 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		BA10B7E12B74F912009DAC69 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		BA10B7E22B74F912009DAC69 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		BA79A48B2B725674009211BA /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79A48F2B725678009211BA /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79A4922B72567C009211BA /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +69,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA10B7DE2B74F889009DAC69 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BA10B7DF2B74F912009DAC69 /* Poppins-Bold.ttf */,
+				BA10B7E02B74F912009DAC69 /* Poppins-Medium.ttf */,
+				BA10B7E12B74F912009DAC69 /* Poppins-Regular.ttf */,
+				BA10B7E22B74F912009DAC69 /* Poppins-SemiBold.ttf */,
+			);
+			name = Fonts;
+			path = "../../../../Downloads/---NeoCafe-Figma/Fonts";
+			sourceTree = "<group>";
+		};
 		BA79A48A2B725674009211BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +94,7 @@
 		BAE594042B70D3E2008C26AC = {
 			isa = PBXGroup;
 			children = (
+				BA10B7DE2B74F889009DAC69 /* Fonts */,
 				BAE5940F2B70D3E2008C26AC /* NeoCafe_BusinessApp */,
 				BAE5940E2B70D3E2008C26AC /* Products */,
 				BA79A48A2B725674009211BA /* Frameworks */,

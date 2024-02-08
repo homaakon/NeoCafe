@@ -39,6 +39,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA10B7E32B74F94E009DAC69 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		BA10B7E42B74F94E009DAC69 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		BA10B7E52B74F94E009DAC69 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		BA10B7E62B74F94E009DAC69 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		BA79A4802B725664009211BA /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79A4842B725667009211BA /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79A4872B72566B009211BA /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +71,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA10B7DD2B74F795009DAC69 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BA10B7E52B74F94E009DAC69 /* Poppins-Bold.ttf */,
+				BA10B7E62B74F94E009DAC69 /* Poppins-Medium.ttf */,
+				BA10B7E42B74F94E009DAC69 /* Poppins-Regular.ttf */,
+				BA10B7E32B74F94E009DAC69 /* Poppins-SemiBold.ttf */,
+			);
+			name = Fonts;
+			path = "../../../../../Downloads/---NeoCafe-Figma/Fonts";
+			sourceTree = "<group>";
+		};
 		BA79A47F2B725664009211BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +113,7 @@
 		BAE593EF2B70D3B8008C26AC /* NeoCafe_ClientApp */ = {
 			isa = PBXGroup;
 			children = (
+				BA10B7DD2B74F795009DAC69 /* Fonts */,
 				BABCA7932B729A9300F76E35 /* Ext + UIViewController.swift */,
 				BAE593F02B70D3B8008C26AC /* AppDelegate.swift */,
 				BAE593F22B70D3B8008C26AC /* SceneDelegate.swift */,
