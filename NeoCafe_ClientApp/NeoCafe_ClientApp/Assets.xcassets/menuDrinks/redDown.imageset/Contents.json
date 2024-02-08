@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "redDown.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
