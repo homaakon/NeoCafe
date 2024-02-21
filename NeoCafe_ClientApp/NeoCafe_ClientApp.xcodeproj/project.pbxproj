@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1B06EC2B7A3F7E00067C7B /* LoginRegView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B06EB2B7A3F7E00067C7B /* LoginRegView.swift */; };
+		BA1B06EE2B7A3FA300067C7B /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B06ED2B7A3FA300067C7B /* EmailView.swift */; };
+		BA1B06F02B7A3FBA00067C7B /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B06EF2B7A3FBA00067C7B /* CodeView.swift */; };
 		BA79A4812B725664009211BA /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A4802B725664009211BA /* Utilities.framework */; };
 		BA79A4822B725664009211BA /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A4802B725664009211BA /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA79A4852B725667009211BA /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA79A4842B725667009211BA /* CommonUI.framework */; };
@@ -43,6 +46,9 @@
 		BA10B7E42B74F94E009DAC69 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		BA10B7E52B74F94E009DAC69 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		BA10B7E62B74F94E009DAC69 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		BA1B06EB2B7A3F7E00067C7B /* LoginRegView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegView.swift; sourceTree = "<group>"; };
+		BA1B06ED2B7A3FA300067C7B /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		BA1B06EF2B7A3FBA00067C7B /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 		BA79A4802B725664009211BA /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79A4842B725667009211BA /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79A4872B72566B009211BA /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +89,16 @@
 			path = "../../../../../Downloads/---NeoCafe-Figma/Fonts";
 			sourceTree = "<group>";
 		};
+		BA1B06EA2B7A3F5900067C7B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				BA1B06EB2B7A3F7E00067C7B /* LoginRegView.swift */,
+				BA1B06ED2B7A3FA300067C7B /* EmailView.swift */,
+				BA1B06EF2B7A3FBA00067C7B /* CodeView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		BA79A47F2B725664009211BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +129,7 @@
 		BAE593EF2B70D3B8008C26AC /* NeoCafe_ClientApp */ = {
 			isa = PBXGroup;
 			children = (
+				BA1B06EA2B7A3F5900067C7B /* Auth */,
 				BA10B7DD2B74F795009DAC69 /* Fonts */,
 				BABCA7932B729A9300F76E35 /* Ext + UIViewController.swift */,
 				BAE593F02B70D3B8008C26AC /* AppDelegate.swift */,
@@ -206,6 +223,9 @@
 				BAE593F52B70D3B8008C26AC /* ViewController.swift in Sources */,
 				BAE593F12B70D3B8008C26AC /* AppDelegate.swift in Sources */,
 				BAE593F32B70D3B8008C26AC /* SceneDelegate.swift in Sources */,
+				BA1B06EC2B7A3F7E00067C7B /* LoginRegView.swift in Sources */,
+				BA1B06EE2B7A3FA300067C7B /* EmailView.swift in Sources */,
+				BA1B06F02B7A3FBA00067C7B /* CodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
